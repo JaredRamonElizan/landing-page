@@ -59,21 +59,19 @@ a{
 
 /* content-one */
 .content-one{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- padding: 100px;
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    align-items: center;
 }
-
-.images-with-subtext{
- display: flex;
- justify-content: center;
+.container-one{
+    display: flex;
+    gap: 25px;
 }
-
-.images-with.subtext, .images{
-
- display: block;
+.images{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
 }
 /* content-one */
 
