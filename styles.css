@@ -54,6 +54,7 @@ a{
     font-weight: bolder;
     color: #F9FAF8;
     margin-top: 10px;
+    margin: 0;
 }
 .header-sub-text{
     font-size: 18px;
@@ -78,7 +79,7 @@ a{
 }
 .container-one{
     display: flex;
-    gap: 25px;
+    gap: 75px;
 }
 .images{
     height: 100px;
@@ -104,9 +105,11 @@ a{
 /* content-two */
 .content-two{
     background-color: #E5E7EB;
-    padding: 80px;
+    padding: 70px;
     display: flex;
     justify-content: center;
+    font-family: Helvetica, sans-serif;
+    font-size: large;
 }
 .quote p{
     display: flex;
@@ -117,7 +120,9 @@ a{
 
 /* content-three */
 .content-three{
-    padding: 50px;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
 }
 
 .call-to-action{
@@ -126,14 +131,30 @@ a{
     background-color: #3882F6;
     border-radius: 10px;
     justify-content: space-around;
+    width: 800px;
+    height: 80px;
+    align-items: center;
 }
-
+.text3{
+   margin: 2px;
+}
+.main-text3{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtext3{
+ color: #E5E7EB;
+ font-family: Arial, Helvetica, sans-serif;
+}
 .content-three-button{
     border-radius: 10px;
     height: 35px;
     width: 100px;
     border-color: white;
     background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
 }
 /* content-three */
 
