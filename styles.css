@@ -12,7 +12,7 @@ body{
 /* header */
 .header{
     background-color: #1F2937;
-    padding: 20px;
+    padding: 40px;
 }
 
 .navbar{
@@ -105,7 +105,7 @@ a{
 /* content-two */
 .content-two{
     background-color: #E5E7EB;
-    padding: 70px;
+    padding: 90px;
     display: flex;
     justify-content: center;
     font-family: Helvetica, sans-serif;
@@ -120,7 +120,7 @@ a{
 
 /* content-three */
 .content-three{
-    padding: 80px;
+    padding: 110px;
     display: flex;
     justify-content: center;
 }
