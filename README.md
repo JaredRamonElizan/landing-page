@@ -1,2 +1,2 @@
 # landing-page
-flexbox layout project
+flexbox layout project for landing page
