@@ -57,12 +57,13 @@ a{
 }
 /* header */
 
-/* content-two */
+/* content-one */
 .content-one{
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ padding: 100px;
 }
 
 .images-with-subtext{
@@ -74,11 +75,24 @@ a{
 
  display: block;
 }
+/* content-one */
+
 /* content-two */
 .content-two{
     background-color: #E5E7EB;
+    padding: 80px;
 }
+/* content-two */
 
+/* content-three */
+.content-three{
+    padding: 50px;
+}
+/* content-three */
+
+/* footer */
 .footer{
     background-color: #1F2937;
+    padding: 12px;
 }
+/* footer */
