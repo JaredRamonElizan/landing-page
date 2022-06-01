@@ -81,6 +81,13 @@ a{
 .content-two{
     background-color: #E5E7EB;
     padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+.quote p{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 /* content-two */
 
@@ -88,11 +95,21 @@ a{
 .content-three{
     padding: 50px;
 }
+
+.call-to-action{
+    display: flex;
+    padding: 20px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
 /* content-three */
 
 /* footer */
 .footer{
     background-color: #1F2937;
     padding: 12px;
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
 }
 /* footer */
