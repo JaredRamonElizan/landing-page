@@ -99,6 +99,15 @@ a{
     padding: 20px;
     background-color: #3882F6;
     border-radius: 10px;
+    justify-content: space-around;
+}
+
+.content-three-button{
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+    border-color: white;
+    background-color: #3882F6;
 }
 /* content-three */
 
