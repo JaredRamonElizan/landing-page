@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
 body{
  display: flex;
  flex-direction: column;
@@ -37,17 +39,27 @@ a{
 .header-content{
     display: flex;
     justify-content: center;
+    gap: 12px;
 }
 
 .header-text{
     display: flex;
     flex-direction: column;
-    gap: -18px;
+    gap: 18px;
     margin-right: 25px;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
+.header-main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-top: 10px;
+}
+.header-sub-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
 .header-button{
     background-color: #3882F6;
     width: 80px;
@@ -72,6 +84,20 @@ a{
     height: 100px;
     width: 100px;
     border-radius: 12px;
+}
+.subtext{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell,'Helvetica Neue', sans-serif;
+    width: 0;
+    min-width: 100%;
+}
+
+.info-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.images-with-subtext{
+    display: inline-block
 }
 /* content-one */
 
